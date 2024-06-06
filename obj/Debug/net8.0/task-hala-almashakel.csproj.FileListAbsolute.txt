@@ -1,0 +1,14 @@
+C:\Users\MSI\Documents\programing\C#\task-hala-almashakel\bin\Debug\net8.0\task-hala-almashakel.exe
+C:\Users\MSI\Documents\programing\C#\task-hala-almashakel\bin\Debug\net8.0\task-hala-almashakel.deps.json
+C:\Users\MSI\Documents\programing\C#\task-hala-almashakel\bin\Debug\net8.0\task-hala-almashakel.runtimeconfig.json
+C:\Users\MSI\Documents\programing\C#\task-hala-almashakel\bin\Debug\net8.0\task-hala-almashakel.dll
+C:\Users\MSI\Documents\programing\C#\task-hala-almashakel\bin\Debug\net8.0\task-hala-almashakel.pdb
+C:\Users\MSI\Documents\programing\C#\task-hala-almashakel\obj\Debug\net8.0\task-hala-almashakel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSI\Documents\programing\C#\task-hala-almashakel\obj\Debug\net8.0\task-hala-almashakel.AssemblyInfoInputs.cache
+C:\Users\MSI\Documents\programing\C#\task-hala-almashakel\obj\Debug\net8.0\task-hala-almashakel.AssemblyInfo.cs
+C:\Users\MSI\Documents\programing\C#\task-hala-almashakel\obj\Debug\net8.0\task-hala-almashakel.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Documents\programing\C#\task-hala-almashakel\obj\Debug\net8.0\task-hala-almashakel.dll
+C:\Users\MSI\Documents\programing\C#\task-hala-almashakel\obj\Debug\net8.0\refint\task-hala-almashakel.dll
+C:\Users\MSI\Documents\programing\C#\task-hala-almashakel\obj\Debug\net8.0\task-hala-almashakel.pdb
+C:\Users\MSI\Documents\programing\C#\task-hala-almashakel\obj\Debug\net8.0\task-hala-almashakel.genruntimeconfig.cache
+C:\Users\MSI\Documents\programing\C#\task-hala-almashakel\obj\Debug\net8.0\ref\task-hala-almashakel.dll
