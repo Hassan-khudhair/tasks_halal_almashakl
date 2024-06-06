@@ -609,6 +609,7 @@ namespace HelloWorld
                 11. Write a C# Sharp program to accept a coordinate point in an XY coordinate 
                 system and determine in which quadrant the coordinate point lies.
             */
+           
 
             // Console.Write("input the a :");
             // int a = Convert.ToInt32(Console.ReadLine());
@@ -634,6 +635,53 @@ namespace HelloWorld
 
 
 
+
+            /* 
+                12. Write a C# Sharp program to read roll no, name and marks of three 
+                subjects and calculate the total, percentage and division.
+            */
+
+            Console.Write("Input the Roll Number of the student :");
+            int roolNum = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Input the Name of the Student :");
+            string name = Console.ReadLine();
+            Console.Write("Input the marks of Physics, Chemistry and Computer Application :");
+            int num1 = Convert.ToInt32(Console.ReadLine());
+            int num2 = Convert.ToInt32(Console.ReadLine());
+            int num3 = Convert.ToInt32(Console.ReadLine());
+
+            double prsentage = 0;
+            if((num1+num2+num3)/3 >= 90 ){
+                prsentage = 90.00;
+            }else if((num1+num2+num3)/3 >= 80){
+                prsentage = 80.00;
+            }else if((num1+num2+num3)/3 >= 70){
+                prsentage = 70.00;
+            }else if((num1+num2+num3)/3 >= 60){
+                prsentage = 60.00;
+            }else if((num1+num2+num3)/3 >= 50){
+                prsentage = 50.00;
+            }
+
+            Console.WriteLine("Roll No : " + roolNum);
+            Console.WriteLine("Name of Student : " + name);
+            Console.WriteLine("Marks in Physics :" + num1);
+            Console.WriteLine("Marks in Chemistry :" + num2);
+            Console.WriteLine("Marks in Computer Application :" + num3);
+            Console.WriteLine("Percentage =" + prsentage );
+            Console.WriteLine("Total Marks = " + (num1+num2+num3));
+            Console.WriteLine("Division =" + (num1+num2+num3)/3 );
+
+
+            /* 
+                13.  Write a C# Sharp program to read temperature in centigrade and display a suitable message according to the temperature state below:
+                    Temp < 0 then Freezing weather
+                    Temp 0-10 then Very Cold weather
+                    Temp 10-20 then Cold weather
+                    Temp 20-30 then Normal in Temp
+                    Temp 30-40 then Its Hot
+                    Temp >=40 then Its Very Hot
+            */
 
         }
     }

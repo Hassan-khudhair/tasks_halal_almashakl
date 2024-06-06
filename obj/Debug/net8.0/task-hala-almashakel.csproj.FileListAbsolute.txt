@@ -12,3 +12,4 @@ C:\Users\MSI\Documents\programing\C#\task-hala-almashakel\obj\Debug\net8.0\refin
 C:\Users\MSI\Documents\programing\C#\task-hala-almashakel\obj\Debug\net8.0\task-hala-almashakel.pdb
 C:\Users\MSI\Documents\programing\C#\task-hala-almashakel\obj\Debug\net8.0\task-hala-almashakel.genruntimeconfig.cache
 C:\Users\MSI\Documents\programing\C#\task-hala-almashakel\obj\Debug\net8.0\ref\task-hala-almashakel.dll
+C:\Users\MSI\Documents\programing\C#\task-hala-almashakel\obj\Debug\net8.0\task-hala-almashakel.sourcelink.json
