@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Formats.Tar;
 using System.Security.Cryptography;
 using System.Text.RegularExpressions;
 using System.Xml;
@@ -641,36 +642,36 @@ namespace HelloWorld
                 subjects and calculate the total, percentage and division.
             */
 
-            Console.Write("Input the Roll Number of the student :");
-            int roolNum = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Input the Name of the Student :");
-            string name = Console.ReadLine();
-            Console.Write("Input the marks of Physics, Chemistry and Computer Application :");
-            int num1 = Convert.ToInt32(Console.ReadLine());
-            int num2 = Convert.ToInt32(Console.ReadLine());
-            int num3 = Convert.ToInt32(Console.ReadLine());
+            // Console.Write("Input the Roll Number of the student :");
+            // int roolNum = Convert.ToInt32(Console.ReadLine());
+            // Console.Write("Input the Name of the Student :");
+            // string name = Console.ReadLine();
+            // Console.Write("Input the marks of Physics, Chemistry and Computer Application :");
+            // int num1 = Convert.ToInt32(Console.ReadLine());
+            // int num2 = Convert.ToInt32(Console.ReadLine());
+            // int num3 = Convert.ToInt32(Console.ReadLine());
 
-            double prsentage = 0;
-            if((num1+num2+num3)/3 >= 90 ){
-                prsentage = 90.00;
-            }else if((num1+num2+num3)/3 >= 80){
-                prsentage = 80.00;
-            }else if((num1+num2+num3)/3 >= 70){
-                prsentage = 70.00;
-            }else if((num1+num2+num3)/3 >= 60){
-                prsentage = 60.00;
-            }else if((num1+num2+num3)/3 >= 50){
-                prsentage = 50.00;
-            }
+            // double prsentage = 0;
+            // if((num1+num2+num3)/3 >= 90 ){
+            //     prsentage = 90.00;
+            // }else if((num1+num2+num3)/3 >= 80){
+            //     prsentage = 80.00;
+            // }else if((num1+num2+num3)/3 >= 70){
+            //     prsentage = 70.00;
+            // }else if((num1+num2+num3)/3 >= 60){
+            //     prsentage = 60.00;
+            // }else if((num1+num2+num3)/3 >= 50){
+            //     prsentage = 50.00;
+            // }
 
-            Console.WriteLine("Roll No : " + roolNum);
-            Console.WriteLine("Name of Student : " + name);
-            Console.WriteLine("Marks in Physics :" + num1);
-            Console.WriteLine("Marks in Chemistry :" + num2);
-            Console.WriteLine("Marks in Computer Application :" + num3);
-            Console.WriteLine("Percentage =" + prsentage );
-            Console.WriteLine("Total Marks = " + (num1+num2+num3));
-            Console.WriteLine("Division =" + (num1+num2+num3)/3 );
+            // Console.WriteLine("Roll No : " + roolNum);
+            // Console.WriteLine("Name of Student : " + name);
+            // Console.WriteLine("Marks in Physics :" + num1);
+            // Console.WriteLine("Marks in Chemistry :" + num2);
+            // Console.WriteLine("Marks in Computer Application :" + num3);
+            // Console.WriteLine("Percentage =" + prsentage );
+            // Console.WriteLine("Total Marks = " + (num1+num2+num3));
+            // Console.WriteLine("Division =" + (num1+num2+num3)/3 );
 
 
             /* 
@@ -683,6 +684,81 @@ namespace HelloWorld
                     Temp >=40 then Its Very Hot
             */
 
+
+
+            
+
+
+
+
+            /* 
+            ---------          The Third Collection of Problems                 --------
+            */
+            // 10. Write a C# Sharp program to find the maximum number of characters in a string.
+
+                // string s = Console.ReadLine();
+                // List<char> charecter = new List<char>() ;
+                // for(int i = 0 ; i < s.Length ; i++ ){
+                //     charecter.Add(s[i]);
+                // }
+                // foreach( char singleChar in charecter.Order()){
+                //     Console.WriteLine(singleChar);
+                // }
+                    
+
+
+            // 12. Write a C# Sharp program to read a string through the keyboard and sort it using bubble sort.
+
+                // int n = Convert.ToInt32(Console.ReadLine());
+                // // string s1 = Console.ReadLine();
+                // List<string> strings = new List<string>() ;
+
+                // for(int i=0 ; i < n ; i++){
+                //     strings.Add(Console.ReadLine());
+                // }
+                // foreach(var singleString in strings.Order()){
+                //     Console.WriteLine(singleString);
+                // }
+
+
+                // 13. Write a program in C# Sharp to extract a substring from a given string without using the library function.
+
+
+                // string s = Console.ReadLine();
+                // int position = Convert.ToInt32(Console.ReadLine());
+                // int length = Convert.ToInt32(Console.ReadLine());
+
+                // for(int i = position ; i < position+length ; i++){
+                //     Console.Write(s[i]);
+                // }
+                
+
+                // 14. Write a C# Sharp program to check whether a given substring is present in the given string.
+
+                // string s = Console.ReadLine();
+                // string s2 = Console.ReadLine();
+                // if(s.CompareTo(s2) == 1){
+                //     Console.WriteLine("The substring exists in the string");
+                // }else{
+                //     Console.WriteLine("The substring is not exists in the string");
+                // }
+
+
+
+
+                //15. Write a C# Sharp program to read a sentence and replace lowercase characters with uppercase and vice-versa.
+                // string s = Console.ReadLine();
+                // char[] charArray = s.ToCharArray();
+
+                // for(int i = 0 ; i < s.Length ; i++){
+                //     if (char.IsUpper(s[i]))
+                //     {
+                //         charArray[i] = char.ToLower(charArray[i]);
+                //     }else if(char.IsLower(s[i])){
+                //         charArray[i] = char.ToUpper(charArray[i]);
+                //     }
+                // }
+                // Console.WriteLine(charArray);
         }
     }
 }
