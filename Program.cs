@@ -683,7 +683,149 @@ namespace HelloWorld
                     Temp 30-40 then Its Hot
                     Temp >=40 then Its Very Hot
             */
+            // Console.Write("Input the temperature in centigrade :");
+            // int temperature = Convert.ToInt32(Console.ReadLine());
 
+            // if( temperature < 0 ){
+            //     Console.WriteLine("Freezing weather");
+            // }else if( temperature >= 0 && temperature <= 10 ){
+            //     Console.WriteLine("Very Cold weather");
+            // }else if( temperature >= 10 && temperature <= 20 ){
+            //     Console.WriteLine("Cold weather");
+            // }else if( temperature >= 20 && temperature <= 30 ){
+            //     Console.WriteLine("Normal in Temp");
+            // }else if( temperature >= 30 && temperature <= 40 ){
+            //     Console.WriteLine("Hot");
+            // }else if( temperature >= 40 ){
+            //     Console.WriteLine("Very Hot");
+            // }
+
+
+            /* 
+                14.  Write a C# Sharp program to check whether a triangle 
+                is Equilateral, Isosceles or Scalene.
+            */
+            // Console.Write("Input the Sizes of lenght for triangle :");
+            // int right = Convert.ToInt32(Console.ReadLine());
+            // int left = Convert.ToInt32(Console.ReadLine());
+            // int baseLength = Convert.ToInt32(Console.ReadLine());
+
+            // if(right == left && right != baseLength && left != baseLength){
+            //     Console.WriteLine("This is an isosceles triangle.");
+            // }else if(right == left && right == baseLength && left == baseLength){
+            //     Console.WriteLine("This is an Equilateral triangle");
+            // }else{
+            //     Console.WriteLine("This is an Scalene triangle.");
+            // }
+
+
+
+
+
+            /* 
+                15. Write a C# Sharp program to check whether a triangle 
+                can be formed by the given angles value.
+            */
+            // Console.Write("Input the three angles for triangle :");
+            // int topAngle = Convert.ToInt32(Console.ReadLine());
+            // int leftAngle = Convert.ToInt32(Console.ReadLine());
+            // int rightAngle = Convert.ToInt32(Console.ReadLine());
+
+            // if(topAngle + leftAngle + rightAngle == 180){
+            //     Console.WriteLine("The triangle is valid.");
+            // }else{
+            //     Console.WriteLine("The triangle is valid.");
+            // }
+
+
+
+            /* 
+                16. Write a C# Sharp program to check whether an alphabet 
+                letter is a vowel or a consonant.
+            */
+            // Console.Write("Input the three angles for triangle :");
+            // char charecter = Convert.ToChar(Console.ReadLine());
+            // char[] alpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstvuwxyz".ToCharArray();
+            // foreach(var chars in alpha){
+            //     if(charecter == chars ){
+            //         Console.WriteLine("The alphabet is a consonant.");
+            //     }
+            // }
+
+
+
+
+
+            /* 
+                17. Write a C# Sharp program to calculate profit and loss on a transaction.
+            */
+            // Console.Write("Input the value of pay :");
+            // int pay = Convert.ToInt32(Console.ReadLine());
+            // Console.Write("Input the value of sel :");
+            // int sel = Convert.ToInt32(Console.ReadLine());
+            // if(pay < sel){
+            //     Console.WriteLine("You can book your profit amount : " + (sel - pay) );
+            // }else if(pay > sel){
+            //     Console.WriteLine("You can loos with this in amount: " + (sel - pay) );
+            // }
+
+
+
+
+            /* 
+                18. Write a C# Sharp program to calculate and print the electricity bill of a customer. 
+                From the keyboard, the customer's name, ID, and unit consumed should be taken 
+                and displayed along with the total amount due.
+                The charge are as follow :
+                Unit
+                Charge/unit
+                upto 199
+                @1.20
+                200 and above but less than 400
+                @1.50
+                400 and above but less than 600
+                @1.80
+                600 and above
+                @2.00
+
+                If bill exceeds Rs. 400 then a surcharge of 15% will be charged and 
+                the minimum bill should be of Rs. 100/-
+            */
+            // Console.Write("Input the Customeer IDNo :");
+            // int IDNo = Convert.ToInt32(Console.ReadLine());
+            // Console.Write("Input the Customeer Name :");
+            // string name = Console.ReadLine();
+            // Console.Write("Input the unit Consumed :");
+            // int unit = Convert.ToInt32(Console.ReadLine());
+            // double amountCharges = 0.00 ;
+            // double surchageAmount = 0.00  ;
+            // double NewAmount = 0.00  ;
+            // double rs = 0.00  ;
+
+            // if(unit < 200){
+            //     rs = 1.20;
+            //     amountCharges = unit * rs;
+            // }else if(unit >= 200 && unit < 400){
+            //     rs = 1.50;
+            //     amountCharges = unit * rs;
+            // }else if(unit >= 400 && unit <= 600){
+            //     double unitPresentage = unit * 0.15;
+            //     rs = 1.80;
+            //     surchageAmount = unitPresentage * rs;
+            //     amountCharges = unit * rs;
+            // }else if(unit > 600 ){
+            //     double unitPresentage = unit * 0.15;
+            //     rs = 2.00;
+            //     surchageAmount = unitPresentage * rs;
+            //     amountCharges = unit * rs;
+            // }
+            // NewAmount = amountCharges + surchageAmount;
+            // Console.WriteLine("Customer id:" + IDNo );
+            // Console.WriteLine("Customer name:" + name );
+            // Console.WriteLine("unit consumed :" + unit );
+            // Console.WriteLine("Amount Charges @Rs. " +  Math.Round(rs,2) + " per unit :" + Math.Round(amountCharges , 2) );
+            // Console.WriteLine("Surchage Amount : :" +  ( surchageAmount > 0 ? Math.Round(surchageAmount , 2) : null) );
+            // Console.WriteLine("Net Amount Paid By the Customer :  :" + Math.Round(NewAmount , 2) );
 
 
             
