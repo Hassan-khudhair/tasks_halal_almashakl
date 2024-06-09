@@ -832,6 +832,216 @@ namespace HelloWorld
 
 
 
+            /* 
+                19. Write a program in C# Sharp to accept a grade and declare the equivalent description :
+                -Grade         -Description
+                ____________________________
+                    E  ------   Excellent
+                    V  ------   Very Good
+                    G  ------   Good
+                    A  ------   Average
+                    F  ------   Fail
+            */
+            // Console.Write("Input the sample of Grade :");
+            // char grade = Convert.ToChar(Console.ReadLine());            
+            // switch(grade){
+            //     case 'E':
+            //         Console.WriteLine("Excellent");
+            //         break;
+            //     case 'V':
+            //         Console.WriteLine("Very Good");
+            //         break;
+            //     case 'G':
+            //         Console.WriteLine("Good");
+            //         break;
+            //     case 'A':
+            //         Console.WriteLine("Average");
+            //         break;
+            //     case 'F':
+            //         Console.WriteLine("Fail");
+            //         break;
+            //     default: 
+            //         Console.WriteLine("There is no decription for this Grade");
+            //         break;
+            // }
+
+
+
+
+
+
+
+
+
+            /* 
+                20. read any day number as an integer and display the name of the day as a word.
+            */
+            // Console.Write("Input the Num of day :");
+            // int grade = Convert.ToInt32(Console.ReadLine());            
+            // switch(grade){
+            //     case 1:
+            //         Console.WriteLine("Monday");
+            //         break;
+            //     case 2:
+            //         Console.WriteLine("Tuesday");
+            //         break;
+            //     case 3:
+            //         Console.WriteLine("wednesday");
+            //         break;
+            //     case 4:
+            //         Console.WriteLine("Thursday");
+            //         break;
+            //     case 5:
+            //         Console.WriteLine("Friday");
+            //         break;
+            //     case 6:
+            //         Console.WriteLine("Saturday");
+            //         break;
+            //     case 7:
+            //         Console.WriteLine("Sunday");
+            //         break;
+            //     default: 
+            //         Console.WriteLine("The Weak is have'nt that Number of day");
+            //         break;
+            // }
+
+
+
+
+
+
+            /* 
+                21. . Write a program in C# Sharp to read any digit, display in the word.
+            */
+
+
+
+
+
+            /* 
+                22. Write C# Sharp program to read any Month Number in integer and display Month name.
+            */
+            // Console.Write("Input the Num of month :");
+            // int grade = Convert.ToInt32(Console.ReadLine());            
+            // switch(grade){
+            //     case 1 || 14:
+            //         Console.WriteLine("January");
+            //         break;
+            //     case 2:
+            //         Console.WriteLine("February");
+            //         break;
+            //     case 3:
+            //         Console.WriteLine("March");
+            //         break;
+            //     case 4:
+            //         Console.WriteLine("April");
+            //         break;
+            //     case 5:
+            //         Console.WriteLine("May");
+            //         break;
+            //     case 6:
+            //         Console.WriteLine("June");
+            //         break;
+            //     case 7:
+            //         Console.WriteLine("July");
+            //         break;
+            //     case 8:
+            //         Console.WriteLine("August");
+            //         break;
+            //     case 9:
+            //         Console.WriteLine("September");
+            //         break;
+            //     case 10:
+            //         Console.WriteLine("October");
+            //         break;
+            //     case 11:
+            //         Console.WriteLine("November");
+            //         break;
+            //     case 12:
+            //         Console.WriteLine("December");
+            //         break;
+            //     default: 
+            //         Console.WriteLine("There isnt month with this number");
+            //         break;
+            // }
+
+
+
+
+
+
+
+
+
+            /* 
+                23. Write a program in C# Sharp to read any Month Number in integer and display the number of days for this month.
+            */
+            // Console.Write("Input the Num of month :");
+            // int grade = Convert.ToInt32(Console.ReadLine());            
+            // if( grade == 12 || grade == 10 || grade == 8 || grade == 7 || grade == 5 || grade == 3 || grade == 1){
+            //     Console.Write("Number of days with "+ grade + " is " + 31);
+            // }else if (grade == 11 || grade == 9 || grade == 6 || grade == 4){
+            //     Console.Write("Number of days with "+ grade + " is " + 30);
+            // }else if (grade == 2){
+            //     Console.Write("Number of days with "+ grade + " is " + 28);
+            // }
+
+
+
+
+
+
+            /* 
+                24. Write a C# Sharp program that calculates the area of geometrical shapes using a menu-driven approach.
+            */
+        //     int num1, num2, opt;  
+
+        // Console.WriteLine("A menu driven program for a simple calculator:\n");  
+        // Console.WriteLine("------------------------------------------------");
+        // Console.WriteLine(" > ");  
+
+        // Console.Write("Enter the first Integer :");  
+        // num1 = Convert.ToInt32(Console.ReadLine());  
+        // Console.Write("Enter the second Integer :");  
+        // num2 = Convert.ToInt32(Console.ReadLine());  
+
+        // Console.WriteLine("\nHere are the options :");  
+        // Console.Write("1-Addition.\n2-Subtraction.\n3-Multiplication.\n4-Division.\n5-Exit.\n");
+        // Console.Write("\nInput your choice :");  
+        // opt = Convert.ToInt32(Console.ReadLine());  
+
+        // switch (opt)  
+        // {
+        //     case 1:  
+        //         Console.WriteLine("The Addition of {0} and {1} is: {2}", num1, num2, num1 + num2);
+        //         break;
+        //     case 2:  
+        //         Console.WriteLine("The Subtraction of {0} and {1} is: {2}", num1, num2, num1 - num2);
+        //         break;
+        //     case 3:  
+        //         Console.WriteLine("The Multiplication of {0} and {1} is: {2}", num1, num2, num1 * num2);
+        //         break;
+        //     case 4:  
+        //         if (num2 == 0)  
+        //         {
+        //             Console.WriteLine("The second integer is zero. Divide by zero.");
+        //         }
+        //         else
+        //         {
+        //             Console.WriteLine("The Division of {0} and {1} is : {2}", num1, num2, num1 / num2);
+        //         }
+        //         break;
+        //     case 5:  
+        //         break;
+        //     default:  
+        //         Console.WriteLine("Input correct option");
+        //         break;
+        // }
+
+
+
+
+
 
             /* 
             ---------          The Third Collection of Problems                 --------
